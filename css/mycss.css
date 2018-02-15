@@ -1,0 +1,61 @@
+@charset "UTF-8";
+html {
+  font-size: 625%; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  line-height: .9rem;
+  background-color: #5ac0ce;
+  font-size: .22rem;
+  padding: 0 .2rem; }
+  header a {
+    color: white; }
+
+.loginner:hover {
+  background-color: #61ddeb;
+  transition: .5s; }
+
+body {
+  color: white;
+  background-color: #eef0f4; }
+
+.account {
+  /*登陆条*/
+  display: flex;
+  width: 100%;
+  height: .55rem;
+  margin: .05rem 0;
+  background-color: white; }
+
+.icon-blk {
+  width: .8rem;
+  border-right: 2px solid #eef0f4;
+  height: .41rem;
+  margin: auto 0;
+  text-align: center; }
+
+.icon-blk > img {
+  transform: scale(0.8, 0.8); }
+
+.account-in {
+  width: 100%;
+  border: none;
+  font-size: .18rem;
+  color: #bababa;
+  margin-left: .1rem; }
+
+.loginner {
+  height: .8rem;
+  width: 100%;
+  background-color: #5ac0ce;
+  margin: .1rem 0;
+  border: none;
+  font-size: .17rem; }
+  .loginner a {
+    color: #5ac0ce; }
+
+.forget {
+  float: right; }
+
+/*# sourceMappingURL=mycss.css.map */
